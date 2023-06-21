@@ -13,7 +13,7 @@ class Base:
 
     def get_data(self):
         # Reads the CSV file and loads the data into a pandas DataFrame.
-        self.df = pd.read_csv(self.csv_file)
+        self.df = pd.read_csv(self.csv_file, dtype={'sumcount': 'Int64'}, low_memory=False)
         return self.df
 
     def clean_data(self):
@@ -25,19 +25,19 @@ class Base:
         self.df.fillna(0, inplace=True)
 
         # Changing Data Types
-        self.df.convert_dtypes()
+        self.df = self.df.convert_dtypes()
 
     def add_endangered_score(self):
         # Adds an 'Endangered Score' column based on the 'SUMCOUNT' values.
-        self.df['Endangered Score'] = self.df['SUMCOUNT'].apply(lambda x: '1 Extreme' if 0 <= x <= 100
+        self.df['Endangered Score'] = self.df['sumcount'].apply(lambda x: '1 Extreme' if 0 <= x <= 100
                                                                else '2 High' if 101 <= x <= 500
                                                                else '3 Medium' if 501 <= x <= 1000
                                                                else '4 Low')
 
-if __name__ == '__main__':
-    csv_file = r'C:\Users\RedneckRandy\Documents\GitHub\Capstone-Project-2\Combined_Less.csv'
-    c = Base(csv_file)
-    print(c.return_string())
-    print(c.df)
-    c.df.to_csv('endangered_clean.csv')
-
+    def get_data_by_common_name(self, common_name):
+        # Retrieves fish data based on the selected common name.
+        fish_data = self.df[self.df['common_name'] == common_name]
+        if not fish_data.empty:
+            return fish_data.iloc[0]
+        else:
+            return pd.Series(dtype='object')

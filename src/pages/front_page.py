@@ -2,17 +2,23 @@ import streamlit as st # Aliasing the streamlit import as st
 
 st.title('Endangered Fish Flash Cards')
 
-st.image('https://pbs.twimg.com/media/E-GjyUsVgAMZ5q8.jpg:large')
+
 
 st.header('Here are the different pages of my application:')
 
-st.subheader('Your Fish Is')
+st.subheader('Your Fish Is...')
 st.text("""
 
-        This application that is solely designed for educational purposes, provides valuable information about endangered fish species,
-        including their name, species, genus, endangered score, location, and temperature.
-        By highlighting these details, users can gain a deeper understanding of the critical 
-        status of these species and the importance of conservation efforts.
+        This application allows users to actively engage with
+        the data by selecting specific fish species of interest.
+        Users can choose a particular fish and retrieve detailed
+        information about that species, including its name, habitat,
+        conservation status, and other relevant details. This interactive
+        feature enhances the user experience and enables individuals to
+        focus on specific fish species they are interested in learning more
+        about. It promotes awareness and understanding of endangered fish
+        species while encouraging users to take an active role in conservation
+        efforts by fostering a connection with these unique and vulnerable creatures.
 
         """)
 
@@ -26,7 +32,7 @@ st.text('''
 The Further Learning page offers an opportunity to delve deeper into the fascinating world of
 endangered fish species and conservation. This page provides a curated selection of additional
 resources, references, and recommendations for users who are interested in expanding their knowledge
-and understanding
+and understanding.
 
         ''')
 
