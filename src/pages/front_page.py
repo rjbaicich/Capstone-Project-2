@@ -1,4 +1,4 @@
-import streamlit as st # Aliasing the streamlit import as st
+import streamlit as st #Aliasing the streamlit import as st
 
 st.title('Endangered Fish Flash Cards')
 

@@ -6,7 +6,7 @@ st.subheader('Additional Resources')
 
 st.image('https://mymodernmet.com/wp/wp-content/uploads/2019/05/ocean-art-7.jpg')
 
-# Define the options for the drop-down menu
+#Define the options for the drop-down menu
 options = {
     'Kaggle Dataset': 'https://www.kaggle.com/datasets/harshithgupta/endangered-fish-data?select=Combined_Less.csv',
     'NOAA Fisheries': 'https://www.fisheries.noaa.gov/species-directory/threatened-endangered',
@@ -18,13 +18,13 @@ options = {
     'A-Z Animals Blog': 'https://a-z-animals.com/blog/endangered-fish-population-by-state/'
 }
 
-# Display the drop-down menu
+#Display the drop-down menu
 selected_option = st.selectbox('Select a resource', list(options.keys()))
 
-# Get the selected URL based on the selected option
+#Get the selected URL based on the selected option
 selected_url = options[selected_option]
 
-# Display the link using HTML tags
+#Display the link using HTML tags
 st.markdown(f'<a href="{selected_url}" target="_blank">{selected_option}</a>', unsafe_allow_html=True)
 
 st.image('https://www.fisheries.noaa.gov/s3/dam-migration/ohc_infographic.png')
