@@ -74,24 +74,24 @@ if st.button('Generate Random Fish'):
         st.write('Common Name:', random_fish_data['common_name'])
         st.write('Endangered Score:', random_fish_data['Endangered Score'])
 
-        # Search for fish images using Google
-        query = random_common_name + ' fish'
-        image_urls = []
-        counter = 0  # Counter to track the number of results
-        for result in search(query, num_results=10):  # Increase the number of results to iterate over
-            if result.endswith('.jpg') or result.endswith('.png'):
-                image_urls.append(result)
-                counter += 1
-            if counter >= 5:  # Adjust the limit to the desired number of results
-                break  # Stop iterating when the desired number of results is reached
+        # # Search for fish images using Google
+        # query = random_common_name + ' fish'
+        # image_urls = []
+        # counter = 0  # Counter to track the number of results
+        # for result in search(query, num_results=10):  # Increase the number of results to iterate over
+        #     if result.endswith('.jpg') or result.endswith('.png'):
+        #         image_urls.append(result)
+        #         counter += 1
+        #     if counter >= 5:  # Adjust the limit to the desired number of results
+        #         break  # Stop iterating when the desired number of results is reached
 
-        if image_urls:
-            # Retrieve and display the first image from the search results
-            response = requests.get(image_urls[0])
-            image = response.content if response.status_code == 200 else None
-            if image:
-                st.image(image, caption='Fish Image', use_column_width=True)
-            else:
-                st.write('Image not found.')
-        else:
-            st.write('No images found.')
+        # if image_urls:
+        #     # Retrieve and display the first image from the search results
+        #     response = requests.get(image_urls[0])
+        #     image = response.content if response.status_code == 200 else None
+        #     if image:
+        #         st.image(image, caption='Fish Image', use_column_width=True)
+        #     else:
+        #         st.write('Image not found.')
+        # else:
+        #     st.write('No images found.')
