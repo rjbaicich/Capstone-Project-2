@@ -15,7 +15,7 @@ vulnerable aquatic creatures.
 
         """)
 
-st.image('https://i.ytimg.com/vi/cwZqRTyJBJA/mqdefault.jpg')
+st.image('https://daily.jstor.org/wp-content/uploads/2020/09/why_should_you_care_about_freshwater_fish_of_virginia_alt_2_1050x700.jpg')
 
 st.write("""
 
@@ -31,3 +31,5 @@ st.write("""
         ensuring the preservation of their unique characteristics and vital ecological roles. 
 
          """)
+
+st.image('https://mediaproxy.salon.com/width/1200/https://media.salon.com/2023/01/wild_salmon_1338749711.jpg')
