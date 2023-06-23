@@ -4,7 +4,9 @@ st.title('Further Learning')
 
 st.subheader('Additional Resources')
 
+st.write("---")
 st.image('https://mymodernmet.com/wp/wp-content/uploads/2019/05/ocean-art-7.jpg')
+st.write("---")
 
 #Define the options for the drop-down menu
 options = {
@@ -27,4 +29,5 @@ selected_url = options[selected_option]
 #Display the link using HTML tags
 st.markdown(f'<a href="{selected_url}" target="_blank">{selected_option}</a>', unsafe_allow_html=True)
 
+st.write("---")
 st.image('https://www.fisheries.noaa.gov/s3/dam-migration/ohc_infographic.png')

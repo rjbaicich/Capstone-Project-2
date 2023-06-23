@@ -2,6 +2,8 @@ import streamlit as st
 
 st.title("Summary Page")
 
+st.write("---")
+
 st.text("""
 
 This application provides users with information about endangered fish species.
@@ -15,7 +17,9 @@ vulnerable aquatic creatures.
 
         """)
 
+st.write("---")
 st.image('https://daily.jstor.org/wp-content/uploads/2020/09/why_should_you_care_about_freshwater_fish_of_virginia_alt_2_1050x700.jpg')
+st.write("---")
 
 st.write("""
 
@@ -32,4 +36,5 @@ st.write("""
 
          """)
 
+st.write("---")
 st.image('https://mediaproxy.salon.com/width/1200/https://media.salon.com/2023/01/wild_salmon_1338749711.jpg')

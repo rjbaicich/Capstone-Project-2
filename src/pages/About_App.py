@@ -20,7 +20,9 @@ st.text("""
 
         """)
 
+st.write("---")
 st.image('https://www.cleveland.com/resizer/w0-DJ095Yw-jgxI2UxkCQZln6Jw=/1280x0/smart/advancelocal-adapter-image-uploads.s3.amazonaws.com/image.cleveland.com/home/cleve-media/width2048/img/plain_dealer_metro/photo/fishjpg-4aec78f162193aeb.jpg')
+st.write("---")
 
 st.subheader('Did You Know?')
 st.text("""
@@ -33,7 +35,9 @@ st.text("""
 
         """)
 
+st.write("---")
 st.image('https://imgs.mongabay.com/wp-content/uploads/sites/20/2020/07/30102718/Sockeye-Salmon-migrating-in-Canada-%C2%A9-Michel-Roggo-_-WWF.jpg')
+st.write("---")
 
 st.subheader('Further Learning')
 st.text('''
@@ -46,9 +50,12 @@ st.text('''
 
         ''')
 
+st.write("---")
 st.image('https://images.saymedia-content.com/.image/t_share/MTc0NDc2MDgzOTg5NTg3NTkw/tropical-fish-for-beginners.jpg')
+st.write("---")
 
 st.subheader('Summary')
-st.text('Summary: Is a summarization page of my application.')
+st.text('Summarization page of my application.')
 
+st.write("---")
 st.image('https://cdn.hswstatic.com/gif/endangered-fish-13.jpg')

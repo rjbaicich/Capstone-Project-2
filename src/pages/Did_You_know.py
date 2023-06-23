@@ -8,6 +8,8 @@ df = pd.read_csv(r'C:\Users\RedneckRandy\Documents\GitHub\Capstone-Project-2\end
 #Set page title
 st.title("Did You Know?")
 
+st.write("---")
+
 #Add subheader paragraph
 st.write("""
 
@@ -19,7 +21,9 @@ st.write("""
 
         """)
 
+st.write("---")
 st.image('https://www.eregulations.com/assets/images/books/flfw/23flfw/6.jpg')
+st.write("---")
 
 #Display a paragraph
 st.write("""
@@ -30,7 +34,9 @@ st.write("""
         
         """)
 
+st.write("---")
 st.image('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Nashua_River_Fallfish.jpg/1280px-Nashua_River_Fallfish.jpg')
+st.write("---")
 
 #Plot and display the top 10 species graph
 top_species = df['species'].value_counts().head(10)
@@ -66,7 +72,7 @@ plt.xticks(rotation=90)
 #Display the top 10 states graph
 st.pyplot(fig3)
 
-#Display a block of space with a paragraph
+
 st.write("---")
 st.write("""
         More than 200 million people rely on freshwater fish as their primary source of
@@ -74,11 +80,14 @@ st.write("""
         individuals, with over half of them being women, depend on freshwater fish for their livelihoods.
         """)
 
+st.write("---")
 st.image('https://upload.wikimedia.org/wikipedia/commons/9/9d/Creek_Chub%2C_Semotilus_atromaculatus.jpg')
+st.write("---")
 
 st.write("""
         Preserving freshwater fisheries is essential for the overall ecosystem health and brings benefits
         to all those who depend on it.
         """)
 
+st.write("---")
 st.image('https://files.worldwildlife.org/wwfcmsprod/images/Buffalo_fish/story_full_width/80b2nhfpi6_Buffalo_fish__c__Freshwaters_Illustrated.jpg')
