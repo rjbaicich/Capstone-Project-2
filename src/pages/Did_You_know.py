@@ -10,20 +10,24 @@ st.title("Did You Know?")
 
 #Add subheader paragraph
 st.write("""
+
         Unfortunately, freshwater fish and their habitats are often overlooked. Freshwater fish play a critical
         role in maintaining the health of aquatic ecosystems, yet they are often overlooked when it comes
         to conservation efforts. With their habitats facing increasing threats such as pollution, habitat
         destruction, and overfishing, it is crucial to raise awareness about the importance of preserving
         freshwater fish and the ecosystems they inhabit.
+
         """)
 
 st.image('https://www.eregulations.com/assets/images/books/flfw/23flfw/6.jpg')
 
 #Display a paragraph
 st.write("""
+
         Healthy freshwater ecosystems are crucial for the thriving populations of
         freshwater fish and the well-being of humans. Rivers directly provide drinking
         water to at least 2 billion people and support a quarter of the world's food production.
+        
         """)
 
 st.image('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Nashua_River_Fallfish.jpg/1280px-Nashua_River_Fallfish.jpg')

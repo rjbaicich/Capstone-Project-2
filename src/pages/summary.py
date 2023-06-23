@@ -5,12 +5,12 @@ st.title("Summary Page")
 st.text("""
 
 This application provides users with information about endangered fish species.
-Users can simply enter the name of an endangered fish species, and the application 
-will return an Endangered Score, the species' location, and a description of the fish. 
-This allows users to quickly access important details about the endangered species they 
-are interested in. By using this application, individuals can gain insights into the 
-conservation status, habitat, and characteristics of various endangered fish species, 
-contributing to their awareness and understanding of the importance of protecting these 
+Users can simply select the name of an endangered fish species, or click on a
+button that randomly generates a fish species and the application will return key details
+about that fish. This allows users to quickly access important details about the endangered
+species they are interested in. By using this application, individuals can gain insights into
+the conservation status, habitat, and characteristics of various endangered fish species,
+contributing to their awareness and understanding of the importance of protecting these
 vulnerable aquatic creatures.
 
         """)
