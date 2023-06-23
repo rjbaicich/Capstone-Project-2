@@ -21,7 +21,7 @@ class Base:
         self.df.drop_duplicates(inplace=True)
 
         #Handle missing values
-        self.df.fillna(0, inplace=True)
+        self.df.fillna(0, inplace=True) 
 
         #Changing Data Types
         self.df = self.df.convert_dtypes()
