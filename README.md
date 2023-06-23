@@ -27,7 +27,7 @@ Together, let's dive into the world of endangered fish species, expand our knowl
 
 Start the Endangered Fish Species Flash Cards and become an advocate for the preservation of these vital marine species!
 
-**Note: The Endangered Fish Species Flash Cards application can be accessed via [link to application].
+**Note: The Endangered Fish Species Flash Cards application can be accessed via [https://yourfishis.streamlit.app/].
 
 
 **The information sources used in this project include the Kaggle Dataset provided by Harshith Gupta for endangered fish data, the NOAA Fisheries website for information on threatened and endangered species, the New York State DEC website for fish species data, Greenpeace's resource on sustainable seafood and red-list fish, Scuba Travel's fish species guide, the US Fish and Wildlife Service for species listings, the WWF Endangered Marine Species Guide, and the A-Z Animals Blog for information on endangered fish populations by state.
