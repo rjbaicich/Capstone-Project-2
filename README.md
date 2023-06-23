@@ -6,7 +6,7 @@ Welcome to the Endangered Fish Species Flash Cards! This interactive application
 
 Why Learn About Endangered Fish Species?:
 
-It is crucial that we all do our part to help keep our beaches and oceans clean. Understanding the plight of endangered fish species is vital to our survival and the health of marine ecosystems. By learning about these species, we can:
+It is crucial that we all do our part to help keep our beaches, oceans, ponds, lakes, and rivers clean. Understanding the plight of endangered fish species is vital to our survival and the health of marine ecosystems. By learning about these species, we can:
 
 Increase awareness: By familiarizing ourselves with the names, species, and genera of endangered fish, we can raise awareness about their existence and the challenges they face.
 
@@ -20,14 +20,14 @@ How to Use the Flash Cards:
 
 Launch the Endangered Fish Species Flash Cards application.
 Choose a fish to reveal additional information about the species, including its habitat, threats, and conservation efforts.
-Continue flipping through the flash cards, testing your knowledge and expanding your understanding of endangered fish species.
+Continue flipping through the flash cards or use the random generate button, testing your knowledge and expanding your understanding of endangered fish species.
 Take Action
 
 Together, let's dive into the world of endangered fish species, expand our knowledge, and take action to safeguard their future.
 
 Start the Endangered Fish Species Flash Cards and become an advocate for the preservation of these vital marine species!
 
-*Note: The Endangered Fish Species Flash Cards application can be accessed via [link to application].
+**Note: The Endangered Fish Species Flash Cards application can be accessed via [link to application].
 
 
-The information sources used in this project include the Kaggle Dataset provided by Harshith Gupta for endangered fish data, the NOAA Fisheries website for information on threatened and endangered species, the New York State DEC website for fish species data, Greenpeace's resource on sustainable seafood and red-list fish, Scuba Travel's fish species guide, the US Fish and Wildlife Service for species listings, the WWF Endangered Marine Species Guide, and the A-Z Animals Blog for information on endangered fish populations by state.
+**The information sources used in this project include the Kaggle Dataset provided by Harshith Gupta for endangered fish data, the NOAA Fisheries website for information on threatened and endangered species, the New York State DEC website for fish species data, Greenpeace's resource on sustainable seafood and red-list fish, Scuba Travel's fish species guide, the US Fish and Wildlife Service for species listings, the WWF Endangered Marine Species Guide, and the A-Z Animals Blog for information on endangered fish populations by state.
