@@ -40,3 +40,7 @@ class Base:
             return fish_data.iloc[0]
         else:
             return pd.Series(dtype='object')
+
+
+            ##How to expand the data source to: current by the hour/ or minute.
+            ##
