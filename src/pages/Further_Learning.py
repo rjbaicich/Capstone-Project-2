@@ -18,6 +18,7 @@ options = {
     'US Fish and Wildlife Service': 'https://ecos.fws.gov/ecp/report/species-listings-by-tax-group?statusCategory=Listed&groupName=Fishes',
     'WWF Endangered Marine Species Guide': 'https://files.worldwildlife.org/wwfcmsprod/files/Publication/file/6yj122pa08_WWF_Endangered_Marine_Species_Guide__September_2019_v3_.pdf',
     'A-Z Animals Blog': 'https://a-z-animals.com/blog/endangered-fish-population-by-state/'
+    'National Fish and Wildlife Foundation': 'https://www.nfwf.org/'
 }
 
 #Display the drop-down menu
