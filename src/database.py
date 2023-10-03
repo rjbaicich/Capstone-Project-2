@@ -15,3 +15,14 @@ def connect_to_mongodb():
     except Exception as e:
         print(e)
         return None  #Return None if the connection failed
+    
+    ### Update water_type for a specific fish by name
+# filter = {'name': 'John Doe'}
+# update = {'$set': {'water_type': 'Freshwater'}}
+
+# result = collection.update_one(filter, update)
+
+# print(f"Matched {result.matched_count} document(s) and modified {result.modified_count} document(s).")
+
+# # Close the MongoDB connection
+# client.close()
