@@ -85,8 +85,10 @@ st.image('https://upload.wikimedia.org/wikipedia/commons/9/9d/Creek_Chub%2C_Semo
 st.write("---")
 
 st.write("""
-        Preserving freshwater fisheries is essential for the overall ecosystem health and brings benefits
-        to all those who depend on it.
+        
+        Safeguarding the integrity of freshwater fisheries holds paramount importance in maintaining the overall
+        ecological balance and confers a multitude of advantages to the diverse array of individuals and communities 
+        reliant on these invaluable aquatic resources.
         """)
 
 st.write("---")
