@@ -86,9 +86,11 @@ st.write("---")
 
 st.write("""
         
-        Safeguarding the integrity of freshwater fisheries holds paramount importance in maintaining the overall
-        ecological balance and confers a multitude of advantages to the diverse array of individuals and communities 
-        reliant on these invaluable aquatic resources.
+       
+        Ensuring the preservation and vitality of freshwater fisheries is of paramount importance as it plays a crucial
+        role in upholding the overall ecological equilibrium. This endeavor not only contributes to the well-being of
+        various individuals and communities but also bestows a multitude of invaluable advantages to those who depend on
+        these aquatic resources.
         """)
 
 st.write("---")
