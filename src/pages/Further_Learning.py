@@ -19,6 +19,9 @@ options = {
     'WWF Endangered Marine Species Guide': 'https://files.worldwildlife.org/wwfcmsprod/files/Publication/file/6yj122pa08_WWF_Endangered_Marine_Species_Guide__September_2019_v3_.pdf',
     'A-Z Animals Blog': 'https://a-z-animals.com/blog/endangered-fish-population-by-state/'
     'National Fish and Wildlife Foundation': 'https://www.nfwf.org/'
+    'Oceana': 'https://usa.oceana.org/save-sea-turtles'
+    'MarineBio Conservation Society': 'https://marinebio.org/'
+    'The Nature Conservancy': 'https://www.nature.org/en-us/what-we-do/our-insights/perspectives/the-race-to-protect-ocean-species/'
 }
 
 #Display the drop-down menu
