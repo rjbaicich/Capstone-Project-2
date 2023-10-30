@@ -74,10 +74,13 @@ st.pyplot(fig3)
 
 
 st.write("---")
-st.write("""
-        More than 200 million people rely on freshwater fish as their primary source of
-        protein, particularly in land-locked and low-income countries. Presently, 60 million
-        individuals, with over half of them being women, depend on freshwater fish for their livelihoods.
+st.write("""     
+        Over 200 million people across the globe depend on freshwater fish as their primary source of protein,
+        a lifeline that sustains them, particularly in land-locked and economically challenged regions.
+        At present, more than 60 million individuals, a significant portion of them women, derive their livelihoods
+        from the vital freshwater fish resources. This underscores the profound significance of safeguarding freshwater
+        fisheries not only for nutritional sustenance but also for the economic well-being and empowerment of millions
+        of individuals, with a particular focus on gender equality.
         """)
 
 st.write("---")
