@@ -90,7 +90,9 @@ st.write("""
         Ensuring the preservation and vitality of freshwater fisheries is of paramount importance as it plays a crucial
         role in upholding the overall ecological equilibrium. This endeavor not only contributes to the well-being of
         various individuals and communities but also bestows a multitude of invaluable advantages to those who depend on
-        these aquatic resources.
+        these aquatic resources. By safeguarding the integrity of freshwater fisheries, we can enhance and maintain the
+        delicate balance of our ecosystems, which, in turn, sustains the livelihoods of countless people and fosters a
+        thriving aquatic environment.
         """)
 
 st.write("---")
