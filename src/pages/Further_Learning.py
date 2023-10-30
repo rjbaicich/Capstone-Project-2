@@ -26,6 +26,8 @@ options = {
     'Marine Mammal Center': 'https://www.marinemammalcenter.org/'
     'IUCN Red List of Threatened Species': 'https://www.iucnredlist.org/'
     'The Nature Conservancy': 'https://www.nature.org/en-us/what-we-do/our-insights/perspectives/the-race-to-protect-ocean-species/'
+    'Conservation International': 'https://www.conservation.org/priorities/marine-conservation'
+    'Ocean Conservancy': 'https://oceanconservancy.org/'
 }
 
 #Display the drop-down menu
