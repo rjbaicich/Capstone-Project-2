@@ -21,6 +21,8 @@ options = {
     'National Fish and Wildlife Foundation': 'https://www.nfwf.org/'
     'Oceana': 'https://usa.oceana.org/save-sea-turtles'
     'MarineBio Conservation Society': 'https://marinebio.org/'
+    'Marine Stewardship Council': 'https://www.msc.org/'
+    'IUCN Red List of Threatened Species': 'https://www.iucnredlist.org/'
     'The Nature Conservancy': 'https://www.nature.org/en-us/what-we-do/our-insights/perspectives/the-race-to-protect-ocean-species/'
 }
 
