@@ -6,14 +6,11 @@ st.write("---")
 
 st.text("""
 
-This application provides users with information about endangered fish species.
-Users can simply select the name of an endangered fish species, or click on a
-button that randomly generates a fish species and the application will return key details
-about that fish. This allows users to quickly access important details about the endangered
-species they are interested in. By using this application, individuals can gain insights into
-the conservation status, habitat, and characteristics of various endangered fish species,
-contributing to their awareness and understanding of the importance of protecting these
-vulnerable aquatic creatures.
+This application is designed to deliver comprehensive information on endangered fish species, empowering
+users with knowledge about the critical status of these aquatic creatures. Users have the flexibility to
+either select a specific endangered fish species from a list or opt for a random selection. In response,
+the application provides detailed insights into the chosen species, offering key information such as conservation
+status, habitat specifics, and unique characteristics.
 
         """)
 
