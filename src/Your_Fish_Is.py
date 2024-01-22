@@ -70,3 +70,15 @@ filtered_fish_data = base.get_data_by_state(selected_state)
 if not filtered_fish_data.empty:
     st.write(f"Fish Data for {selected_state}:")
     st.write(filtered_fish_data)
+
+
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+# Visualize Endangered Scores
+fig, ax = plt.subplots()
+sns.histplot(random_fish_data['Endangered Score'], bins=10, kde=True, ax=ax)
+ax.set_title('Distribution of Endangered Scores')
+ax.set_xlabel('Endangered Score')
+ax.set_ylabel('Frequency')
+st.pyplot(fig)
