@@ -93,3 +93,18 @@ filtered_status_data = base.get_data_by_status(selected_status)
 if not filtered_status_data.empty:
     st.write(f"Fish Data for {selected_status} Status:")
     st.write(filtered_status_data)
+
+import folium
+
+# Get latitude and longitude from the fish data
+latitude, longitude = fish_data['latitude'].iloc[0], fish_data['longitude'].iloc[0]
+
+# Create a folium map centered around the fish location
+map_fish = folium.Map(location=[latitude, longitude], zoom_start=10)
+
+# Add a marker for the fish location
+folium.Marker(location=[latitude, longitude], popup=selected_common_name).add_to(map_fish)
+
+# Display the map
+st.write("Fish Location on Map:")
+st.markdown(map_fish._repr_html_(), unsafe_allow_html=True)
