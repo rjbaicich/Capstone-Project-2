@@ -58,3 +58,15 @@ if st.button('Generate Random Fish'):
         st.write('State:', random_fish_data['state'])
         st.write('Common Name:', random_fish_data['common_name'])
         st.write('Endangered Score:', random_fish_data['Endangered Score'])
+
+
+        # Create a selectbox for users to choose a state
+selected_state = st.selectbox('Select a state:', fish_data['state'].unique(), help="Choose a state")
+
+# Filter fish data based on the selected state
+filtered_fish_data = base.get_data_by_state(selected_state)
+
+# Display filtered fish data
+if not filtered_fish_data.empty:
+    st.write(f"Fish Data for {selected_state}:")
+    st.write(filtered_fish_data)
