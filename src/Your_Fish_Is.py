@@ -108,3 +108,18 @@ folium.Marker(location=[latitude, longitude], popup=selected_common_name).add_to
 # Display the map
 st.write("Fish Location on Map:")
 st.markdown(map_fish._repr_html_(), unsafe_allow_html=True)
+
+# Highlight important information
+st.subheader(f"Details for {selected_common_name}:")
+
+# Check if the fish is endangered and highlight the status
+if fish_data['Endangered Status'].iloc[0] == 'Endangered':
+    st.write('Endangered Status:', f"**{fish_data['Endangered Status'].iloc[0]}**")
+else:
+    st.write('Endangered Status:', fish_data['Endangered Status'].iloc[0])
+
+# Display other details
+st.write('Species:', fish_data['species'])
+st.write('State:', fish_data['state'])
+st.write('Common Name:', fish_data['common_name'])
+st.write('Endangered Score:', fish_data['Endangered Score'])
