@@ -82,3 +82,14 @@ ax.set_title('Distribution of Endangered Scores')
 ax.set_xlabel('Endangered Score')
 ax.set_ylabel('Frequency')
 st.pyplot(fig)
+
+# Create a radio button for users to choose endangered status
+selected_status = st.radio('Select Endangered Status:', ['Endangered', 'Threatened', 'Not Listed'], index=2, help="Choose an endangered status")
+
+# Filter fish data based on the selected endangered status
+filtered_status_data = base.get_data_by_status(selected_status)
+
+# Display filtered fish data
+if not filtered_status_data.empty:
+    st.write(f"Fish Data for {selected_status} Status:")
+    st.write(filtered_status_data)
